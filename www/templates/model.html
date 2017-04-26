@@ -24,7 +24,15 @@
         {{model[attr] || 'blank'}}
       </span>
     </span>
+    <span ng-if="! readOnly"> visibility:
+      <span data-tap-disabled="true"
+        editable-checkbox="model.visibility"
+        buttons="no" onbeforesave="update('visibility', $data)">
+        {{model.visibility}}
+      </span>
+    </span>
   </p>
+
 </div>
 <ion-option-button 
   class="button button-assertive icon-left ion-trash-a" 

@@ -29,6 +29,9 @@ module.exports =
     order:
       type: 'integer'
       required: true
+    visibility:
+      type: 'boolean'
+      defaultsTo: true
     createdBy:
       model: 'user'
       required: true
