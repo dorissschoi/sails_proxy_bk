@@ -24,7 +24,7 @@
         {{model[attr] || 'blank'}}
       </span>
     </span>
-    <span ng-if="! readOnly"> visibility:
+    <span> visibility:
       <span data-tap-disabled="true"
         editable-checkbox="model.visibility"
         buttons="no" onbeforesave="update('visibility', $data)">

@@ -54,6 +54,11 @@ $msg-color: #f5f5f5;
   }
 }
 
+.checkbox input[type="checkbox"] {
+  margin-left: -10px;
+  position: relative;
+}
+
 .scroll {
   height: 100%;
 
